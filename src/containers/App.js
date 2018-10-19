@@ -51,7 +51,7 @@ import RTL from 'util/RTL';
 import asyncComponent from 'util/asyncComponent';
 import { Auth } from 'aws-amplify';
 
-const RestrictedRoute = ({component: Component, ...rest, authUser}) =>
+const RestrictedRoute = ({component: Component, authUser,...rest }) =>
     <Route
         {...rest}
         render={props =>

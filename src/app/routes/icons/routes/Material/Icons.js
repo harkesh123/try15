@@ -62,7 +62,6 @@ import {
     ContactMail,
     ContactPhone,
     Contacts,
-    ContentCopy,
     Delete,
     DeleteForever,
     Description,
@@ -132,18 +131,15 @@ import {
     ImportContacts,
     ImportExport,
     Info,
-    InfoOutline,
     Input,
     InvertColors,
     InvertColorsOff,
     Label,
-    LabelOutline,
     Language,
     Launch,
     LibraryAdd,
     LibraryBooks,
     LibraryMusic,
-    LightbulbOutline,
     LineStyle,
     LineWeight,
     List,
@@ -152,7 +148,6 @@ import {
     LocationOn,
     Lock,
     LockOpen,
-    LockOutline,
     Loop,
     Loyalty,
     MailOutline,
@@ -285,7 +280,6 @@ import {
     SwapHoriz,
     SwapVert,
     SwapVerticalCircle,
-    SystemUpdateAlt,
     Tab,
     TabUnselected,
     Textsms,
@@ -898,10 +892,6 @@ const Icons = () => (
             <p className="mt-1 mb-4">LockOpen</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <LockOutline />
-            <p className="mt-1 mb-4">LockOutline</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Loyalty />
             <p className="mt-1 mb-4">Loyalty</p>
         </div>
@@ -1008,10 +998,6 @@ const Icons = () => (
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <PermDataSetting />
             <p className="mt-1 mb-4">PermDataSetting</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <ContentCopy />
-            <p className="mt-1 mb-4">ContentCopy</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Clear />
@@ -1372,10 +1358,6 @@ const Icons = () => (
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <SwapVerticalCircle />
             <p className="mt-1 mb-4">SwapVerticalCircle</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <SystemUpdateAlt />
-            <p className="mt-1 mb-4">SystemUpdateAlt</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Tab />
@@ -1932,10 +1914,6 @@ const Icons = () => (
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Tab />
             <p className="mt-1 mb-4">Tab</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <SystemUpdateAlt />
-            <p className="mt-1 mb-4">SystemUpdateAlt</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <SwapVerticalCircle />
@@ -2618,20 +2596,12 @@ const Icons = () => (
             <p className="mt-1 mb-4">LineStyle</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <LightbulbOutline />
-            <p className="mt-1 mb-4">LightbulbOutline</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Launch />
             <p className="mt-1 mb-4">Launch</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Language />
             <p className="mt-1 mb-4">Language</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <LabelOutline />
-            <p className="mt-1 mb-4">LabelOutline</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Label />
@@ -2644,10 +2614,6 @@ const Icons = () => (
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Input />
             <p className="mt-1 mb-4">Input</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <InfoOutline />
-            <p className="mt-1 mb-4">InfoOutline</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Info />
@@ -2720,10 +2686,6 @@ const Icons = () => (
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <LockOpen />
             <p className="mt-1 mb-4">LockOpen</p>
-        </div>
-        <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
-            <LockOutline />
-            <p className="mt-1 mb-4">LockOutline</p>
         </div>
         <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
             <Loyalty />
