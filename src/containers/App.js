@@ -40,9 +40,9 @@ import {
 } from 'constants/ThemeColors';
 
 import MainApp from 'app/index';
-import AdminApp from "./Admin/admin";
-import LenderApp from "./Lender/lender";
-import BorrowerApp from "./Borrower/borrower";
+import AdminApp from "cgapp/Admin/admin";
+import LenderApp from "cgapp/Lender/lender";
+import BorrowerApp from "cgapp/Borrower/borrower";
 
 import SignIn from './SignIn';
 import SignUp from './SignUp';

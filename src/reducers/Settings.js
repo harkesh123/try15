@@ -3,7 +3,7 @@ import {
     CHANGE_NAVIGATION_STYLE,
     DARK_THEME,
     DRAWER_TYPE,
-    FIXED_DRAWER,
+    COLLAPSED_DRAWER,
     HORIZONTAL_MENU_POSITION,
     INSIDE_THE_HEADER,
     SWITCH_LANGUAGE,
@@ -12,13 +12,13 @@ import {
     VERTICAL_NAVIGATION,
     WINDOW_WIDTH
 } from 'constants/ActionTypes';
-import {DARK_INDIGO} from 'constants/ThemeColors';
+import {DEEP_PURPLE} from 'constants/ThemeColors';
 
 const rltLocale = ['ar'];
 const initialSettings = {
     navCollapsed: false,
-    drawerType: FIXED_DRAWER,
-    themeColor: DARK_INDIGO,
+    drawerType: COLLAPSED_DRAWER,
+    themeColor: DEEP_PURPLE,
     darkTheme: false,
     width: window.innerWidth,
     isDirectionRTL: false,
