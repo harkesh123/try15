@@ -40,9 +40,9 @@ import {
 } from 'constants/ThemeColors';
 
 import MainApp from 'app/index';
-import AdminApp from "./admin";
-import LenderApp from "./lender";
-import BorrowerApp from "./borrower";
+import AdminApp from "./Admin/admin";
+import LenderApp from "./Lender/lender";
+import BorrowerApp from "./Borrower/borrower";
 
 import SignIn from './SignIn';
 import SignUp from './SignUp';
@@ -169,6 +169,7 @@ async componentWillMount() {
         } else {
             applyTheme = this.getColorTheme(themeColor, applyTheme);
         }
+        console.log(themeColor)
        if (location.pathname === '/') {
             if (authUser === null) {
                 return ( <Redirect to={'/signin'}/> );
